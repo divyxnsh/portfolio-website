@@ -60,6 +60,9 @@ const Skills = () => (
               <li>&#8226; React.js</li>
               <li>&#8226; HTML5</li>
               <li>&#8226; CSS3</li>
+              <li>&#8226; Linux</li>
+              <li>&#8226; MS Azure</li>
+              <li>&#8226; Git</li>
             </ul>
           </ListParagraph>
         </ListContainer>
