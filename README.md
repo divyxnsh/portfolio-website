@@ -1,3 +1,3 @@
-## Personal Portfolio
+## Personal Portfolio Website
 
-![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+Built with Next.js, Javascript, HTML, CSS
