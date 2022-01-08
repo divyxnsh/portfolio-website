@@ -37,7 +37,7 @@ const projects = [
     image: "/images/covidsim.png",
     tags: ["Lua", "Love2D", "Desktop", "Application"],
     source: "https://devpost.com/software/covid-19-simulator-0ha4vc",
-    visit: "https://google.com",
+    visit: "https://devpost.com/software/covid-19-simulator-0ha4vc",
     id: 1,
   },
   {
@@ -64,9 +64,9 @@ const projects = [
     title: "Portfolio Website",
     description: "Portfolio website - Know all about me",
     image: "/images/website.png",
-    tags: ["Javascript", "HTML", "CSS", "React.js", "Next.js"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    tags: ["Javascript", "HTML", "CSS", "Next.js"],
+    source: "https://www.divyansh.tech/",
+    visit: "https://github.com/divyxnsh/portfolio-website",
     id: 4,
   },
   {
