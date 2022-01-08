@@ -73,8 +73,6 @@ const Skills = () => (
               <li>&#8226; Git</li>
               <li>&#8226; Discord.py</li>
               <li>&#8226; BeautifulSoup 4</li>
-              <li>&#8226; mysql-connector</li>
-              <li>&#8226; PyMongo/Motor</li>
               <li>&#8226; Pillow</li>
             </ul>
           </ListParagraph>
