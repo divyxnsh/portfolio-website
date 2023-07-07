@@ -22,10 +22,10 @@ const About = () => {
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
+      <SectionText>Tech-Enthusiast and a massive sports freak.</SectionText>
       <SectionText>
-        Primarily a Tech-Enthusiast and a massive sports (majorly cricket)
-        freak. An aspiring Software Engineer always striving to be the best
-        version of myself while innovating amazing software applications.
+        An aspiring Software Engineer always striving to be the best version of
+        myself while innovating impactful software applications.
       </SectionText>
     </Section>
   );

@@ -46,8 +46,9 @@ const Skills = () => (
           <ListParagraph>
             <ul>
               <li>&#8226; Python</li>
-              <li>&#8226; C / C++</li>
+              <li>&#8226; Typescript</li>
               <li>&#8226; Javascript</li>
+              <li>&#8226; C / C++</li>
               <li>&#8226; MATLAB</li>
               <li>&#8226; Lua</li>
               <li>&#8226; HTML5</li>
@@ -67,13 +68,14 @@ const Skills = () => (
           <ListTitle>Technologies</ListTitle>
           <ListParagraph>
             <ul>
-              <li>&#8226; React.js</li>
-              <li>&#8226; MySQL</li>
+              <li>&#8226; Pandas</li>
               <li>&#8226; MongoDB</li>
+              <li>&#8226; React</li>
+              <li>&#8226; Express</li>
+              <li>&#8226; Node</li>
+              <li>&#8226; MySQL</li>
               <li>&#8226; Git</li>
               <li>&#8226; Discord.py</li>
-              <li>&#8226; BeautifulSoup 4</li>
-              <li>&#8226; Pillow</li>
             </ul>
           </ListParagraph>
         </ListContainer>
