@@ -16,7 +16,7 @@ const Hero = (props) => (
         Divyansh Bhandari's Portfolio
       </SectionTitle>
       <SectionText>
-        First-Year Software Engineering Student at University of Waterloo
+        2B Software Engineering Student at University of Waterloo
       </SectionText>
       <Button
         onClick={() =>
