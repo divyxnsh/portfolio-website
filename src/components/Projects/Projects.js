@@ -23,7 +23,7 @@ const projects = [
   {
     title: "Cricket Guru",
     description:
-      "Relive your favorite sport through the best verified cricket bot on Discord. (9K+ users, 4K+ servers, 155K+ games)",
+      "Relive your favorite sport through the best verified cricket bot on Discord. (28K+ users, 12K+ servers)",
     image: "/images/cg.png",
     tags: ["Python", "Discord", "Game", "Bot"],
     source: "https://top.gg/bot/814100764787081217",

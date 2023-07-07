@@ -73,9 +73,8 @@ const Skills = () => (
               <li>&#8226; React</li>
               <li>&#8226; Express</li>
               <li>&#8226; Node</li>
+              <li>&#8226; Reflux</li>
               <li>&#8226; MySQL</li>
-              <li>&#8226; Git</li>
-              <li>&#8226; Discord.py</li>
             </ul>
           </ListParagraph>
         </ListContainer>
@@ -91,13 +90,14 @@ const Skills = () => (
           <ListTitle>Tools</ListTitle>
           <ListParagraph>
             <ul>
+              <li>&#8226; Jupyter</li>
+              <li>&#8226; Postman</li>
               <li>&#8226; Linux</li>
               <li>&#8226; Docker</li>
-              <li>&#8226; Screen</li>
               <li>&#8226; AWS</li>
-              <li>&#8226; MS Azure</li>
-              <li>&#8226; Heroku</li>
-              <li>&#8226; MS Office</li>
+              <li>&#8226; Azure</li>
+              <li>&#8226; Firebase</li>
+              <li>&#8226; Git</li>
             </ul>
           </ListParagraph>
         </ListContainer>
