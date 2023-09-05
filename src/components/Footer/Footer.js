@@ -1,14 +1,9 @@
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { FaEnvelope } from "react-icons/fa";
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
-  CompanyContainer,
   FooterWrapper,
-  LinkColumn,
-  LinkItem,
-  LinkList,
-  LinkTitle,
   Slogan,
   SocialContainer,
   SocialIconsContainer,
@@ -17,22 +12,8 @@ import {
 const Footer = () => {
   return (
     <FooterWrapper>
-      <LinkList>
-        <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:226-507-2876">226-507-2876</LinkItem>
-        </LinkColumn>
-        <LinkColumn>
-          <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:divyxnsh@gmail.com">
-            divyxnsh@gmail.com
-          </LinkItem>
-        </LinkColumn>
-      </LinkList>
       <SocialIconsContainer>
-        <CompanyContainer>
-          <Slogan>Being the best version of myself!</Slogan>
-        </CompanyContainer>
+        <Slogan>Being the best version of myself!</Slogan>
         <SocialContainer>
           <SocialIcons href="https://github.com/divyxnsh">
             <AiFillGithub size="3rem" />
@@ -40,8 +21,8 @@ const Footer = () => {
           <SocialIcons href="https://linkedin.com/in/divyanshb">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://instagram.com/divyxnsh">
-            <AiFillInstagram size="3rem" />
+          <SocialIcons href="mailto:divyxnsh@gmail.com">
+            <FaEnvelope size="3rem" />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>

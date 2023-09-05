@@ -5,7 +5,7 @@ import {
   SectionDivider,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
+import { Box, Boxes, BoxNum, BoxText } from "./CoursesStyles";
 
 const data = [
   { number: "SE 101", text: "Introduction to Software Engineering" },
@@ -20,7 +20,7 @@ const data = [
   { number: "MATH 119", text: "Calculus II for Engineering" },
   { number: "ECE 106", text: "Electricity and Magnetism" },
   { number: "CHE 102", text: "Chemistry for Engineers" },
-  { number: "SE 201", text: "Seminar" },
+  { number: "SE 201", text: "Seminar (Gotta keep the order)" },
   { number: "SE 212", text: "Logic & Computation" },
   { number: "STAT 206", text: "Statistics" },
   { number: "CS 241", text: "Sequential Programs" },
@@ -34,8 +34,8 @@ const data = [
   { number: "ECE 192", text: "Engineering Economics & Society Impact" },
 ];
 
-const Acomplishments = () => (
-  <Section>
+const Courses = () => (
+  <Section nopadding id="courses">
     <SectionTitle>University Courses</SectionTitle>
     <Boxes>
       {data.map((card, index) => (
@@ -49,4 +49,4 @@ const Acomplishments = () => (
   </Section>
 );
 
-export default Acomplishments;
+export default Courses;

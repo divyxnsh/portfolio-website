@@ -9,25 +9,15 @@ import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 
 const Hero = (props) => (
-  <Section row nopadding>
-    <LeftSection>
-      <SectionTitle main center>
-        Welcome to <br />
-        Divyansh Bhandari's Portfolio
-      </SectionTitle>
-      <SectionText>
-        2B Software Engineering Student at University of Waterloo
-      </SectionText>
-      <Button
-        onClick={() =>
-          (window.location =
-            "https://uwaterloo.ca/future-students/programs/software-engineering")
-        }
-      >
-        SE @UWaterloo
-      </Button>
-    </LeftSection>
-  </Section>
+  <LeftSection>
+    <SectionTitle main center>
+      Hey there 👋🏻 <br />
+      My name is Divyansh Bhandari
+    </SectionTitle>
+    <SectionText>
+      I'm a 3A Software Engineering Student at University of Waterloo
+    </SectionText>
+  </LeftSection>
 );
 
 export default Hero;

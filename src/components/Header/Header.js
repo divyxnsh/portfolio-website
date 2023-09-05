@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-import { DiCssdeck } from "react-icons/di";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { FaEnvelope } from "react-icons/fa";
 
 import {
   Container,
@@ -22,7 +22,7 @@ const Header = () => (
             display: "flex",
             alignItems: "center",
             color: "white",
-            marginBottom: 48,
+            marginBottom: 18,
             marginLeft: 30,
           }}
         >
@@ -30,7 +30,19 @@ const Header = () => (
         </a>
       </Link>
     </Div1>
-    <Div2>
+    <Div2
+      style={{
+        display: "flex",
+        alignItems: "center",
+        color: "white",
+        marginBottom: 18,
+      }}
+    >
+      <li>
+        <Link href="#experience">
+          <NavLink>Experience</NavLink>
+        </Link>
+      </li>
       <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
@@ -46,16 +58,28 @@ const Header = () => (
           <NavLink>About</NavLink>
         </Link>
       </li>
+      <li>
+        <Link href="#courses">
+          <NavLink>Courses</NavLink>
+        </Link>
+      </li>
     </Div2>
-    <Div3>
+    <Div3
+      style={{
+        alignItems: "center",
+        color: "white",
+        marginBottom: 18,
+        marginRight: 30,
+      }}
+    >
       <SocialIcons href="https://github.com/divyxnsh">
-        <AiFillGithub size="3rem/" />
+        <AiFillGithub size="5rem" />
       </SocialIcons>
       <SocialIcons href="https://linkedin.com/in/divyanshb/">
-        <AiFillLinkedin size="3rem/" />
+        <AiFillLinkedin size="5rem" />
       </SocialIcons>
-      <SocialIcons href="https://instagram.com/divyxnsh">
-        <AiFillInstagram size="3rem/" />
+      <SocialIcons href="mailto:divyxnsh@gmail.com">
+        <FaEnvelope size="5rem" />
       </SocialIcons>
     </Div3>
   </Container>
