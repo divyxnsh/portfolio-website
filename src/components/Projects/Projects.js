@@ -23,9 +23,9 @@ const projects = [
   {
     title: "Cricket Guru",
     description:
-      "Relive your favorite sport through the best verified cricket bot on Discord. (28K+ users, 12K+ servers)",
+      "Relive your favorite sport through the best verified cricket bot on Discord. (30K+ users, 12K+ servers)",
     image: "/images/cg.png",
-    tags: ["Python", "Discord", "Game", "Bot"],
+    tags: ["Python", "MongoDB", "Discord", "Game"],
     source: "https://top.gg/bot/814100764787081217",
     visit: "https://top.gg/bot/814100764787081217",
     id: 0,
@@ -64,7 +64,7 @@ const projects = [
     title: "Portfolio Website",
     description: "Portfolio website - Know all about me",
     image: "/images/website.png",
-    tags: ["Javascript", "HTML", "CSS", "Next.js"],
+    tags: ["Next.js", "Javascript", "HTML", "CSS"],
     source: "https://www.divyansh.tech/",
     visit: "https://github.com/divyxnsh/portfolio-website",
     id: 4,

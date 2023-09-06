@@ -35,6 +35,7 @@ export const SectionTitle = styled.h2`
     #ffffff 18.77%,
     rgba(255, 255, 255, 0.66) 60.15%
   );
+  color: currentColor;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;

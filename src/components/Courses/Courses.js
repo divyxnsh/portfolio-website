@@ -35,7 +35,7 @@ const data = [
 ];
 
 const Courses = () => (
-  <Section nopadding id="courses">
+  <Section id="courses">
     <SectionTitle>University Courses</SectionTitle>
     <Boxes>
       {data.map((card, index) => (
