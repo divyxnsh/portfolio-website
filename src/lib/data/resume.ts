@@ -14,7 +14,13 @@ import PostgridImg from '$lib/imgs/postgrid.jpeg';
 import NetnowImg from '$lib/imgs/netnow.png';
 import WaterLooImg from '$lib/imgs/waterloo.png';
 
+import CovidSimImg from '$lib/imgs/covidsim.png';
+import LocalPassImg from '$lib/imgs/localpass.png';
+import GenNetImg from '$lib/imgs/gennet.png';
+import ScoreCastImg from '$lib/imgs/scorecast.png';
 import PlottrImg from '$lib/imgs/plottr.png';
+import BiquadrisImg from '$lib/imgs/biquadris.png';
+import CricketGuruImg from '$lib/imgs/cg.png';
 import PolicyHubImg from '$lib/imgs/policyhub.png';
 
 // Your resume data
@@ -173,8 +179,7 @@ export const DATA = {
 					icon: Globe
 				}
 			],
-			image: 'src/lib/imgs/cg.png',
-			video: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4'
+			image: CricketGuruImg
 		},
 		{
 			title: 'LocalPass',
@@ -191,7 +196,7 @@ export const DATA = {
 					icon: Github
 				}
 			],
-			image: 'src/lib/imgs/localpass.png'
+			image: LocalPassImg
 		},
 		{
 			title: 'ScoreCast',
@@ -208,7 +213,7 @@ export const DATA = {
 					icon: Github
 				}
 			],
-			image: 'src/lib/imgs/scorecast.png'
+			image: ScoreCastImg
 		},
 		{
 			title: 'GenNet',
@@ -230,7 +235,7 @@ export const DATA = {
 					icon: Github
 				}
 			],
-			image: 'src/lib/imgs/gennet.png'
+			image: GenNetImg
 		},
 		{
 			title: 'COVID-19 Simulator',
@@ -246,8 +251,7 @@ export const DATA = {
 					icon: Globe
 				}
 			],
-			image: '$lib/imgs/covidsim.png',
-			video: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4'
+			image: CovidSimImg
 		},
 		{
 			title: 'PolicyHub',
@@ -301,7 +305,7 @@ export const DATA = {
 					icon: Github
 				}
 			],
-			image: 'src/lib/imgs/biquadris.png'
+			image: BiquadrisImg
 		}
 	]
 };
