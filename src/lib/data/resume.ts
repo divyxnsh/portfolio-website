@@ -242,7 +242,7 @@ export const DATA = {
 					icon: Globe
 				}
 			],
-			image: 'src/lib/imgs/covidsim.png',
+			image: '$lib/imgs/covidsim.png',
 			video: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4'
 		},
 		{
