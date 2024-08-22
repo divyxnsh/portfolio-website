@@ -14,6 +14,9 @@ import PostgridImg from '$lib/imgs/postgrid.jpeg';
 import NetnowImg from '$lib/imgs/netnow.png';
 import WaterLooImg from '$lib/imgs/waterloo.png';
 
+import PlottrImg from '$lib/imgs/plottr.png';
+import PolicyHubImg from '$lib/imgs/policyhub.png';
+
 // Your resume data
 export const DATA = {
 	name: 'Divyansh Bhandari',
@@ -261,7 +264,7 @@ export const DATA = {
 					icon: Github
 				}
 			],
-			image: 'src/lib/imgs/policyhub.png'
+			image: PolicyHubImg
 		},
 		{
 			title: 'Plottr',
@@ -282,7 +285,7 @@ export const DATA = {
 					icon: Github
 				}
 			],
-			image: 'src/lib/imgs/plottr.png'
+			image: PlottrImg
 		},
 		{
 			title: 'Biquadris',
