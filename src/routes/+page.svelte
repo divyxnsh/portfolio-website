@@ -45,8 +45,7 @@
 					>
 					<BlurFade class="max-w-[600px] md:text-xl" delay={BLUR_FADE_DELAY}
 						>Software Engineer with an entrepreneurial spirit. I love building things that make a
-						difference. Currently a third-year Software Engineering student at University of
-						Waterloo.</BlurFade
+						difference.</BlurFade
 					>
 				</div>
 				<BlurFade delay={BLUR_FADE_DELAY}>

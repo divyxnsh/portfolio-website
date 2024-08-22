@@ -23,8 +23,9 @@ export const DATA = {
 	location: 'Mumbai, India',
 	locationLink: 'https://www.google.com/maps/place/mumbai',
 	description:
-		'Software Engineer with an entrepreneurial spirit. I love building things and helping people. Third-year Software Engineering student at University of Waterloo.',
-	summary: '',
+		'Software Engineer with an entrepreneurial spirit. I love building things that make a difference.',
+	summary:
+		"Currently a third-year Software Engineering student at University of Waterloo. Technology and sports are two things I'm always ready to have a conversation about.",
 	avatarUrl: 'https://i.pinimg.com/564x/df/d2/76/dfd276448eed0f2b6094d1cb2c9d0269.jpg',
 	skills: [
 		'Python',
