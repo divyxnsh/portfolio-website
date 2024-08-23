@@ -27,10 +27,8 @@ import PolicyHubImg from '$lib/imgs/policyhub.png';
 export const DATA = {
 	name: 'Divyansh Bhandari',
 	initials: 'DB',
-	url: 'https://github.com/SikandarJODD',
-	img: 'https://i.pinimg.com/736x/9e/dc/a6/9edca66eba199828bda2dbaf35642154.jpg',
-	location: 'Mumbai, India',
-	locationLink: 'https://www.google.com/maps/place/mumbai',
+	url: 'https://github.com/divyxnsh',
+	location: 'Waterloo, Ontario',
 	description:
 		'Software Engineer with an entrepreneurial spirit. I love building things that make a difference.',
 	summary:
