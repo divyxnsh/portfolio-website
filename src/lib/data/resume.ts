@@ -12,6 +12,7 @@ import LinkedinDarkSvg from '$lib/imgs/linkedin-dark.svg';
 import PiinpointImg from '$lib/imgs/piinpoint.jpeg';
 import PostgridImg from '$lib/imgs/postgrid.jpeg';
 import NetnowImg from '$lib/imgs/netnow.png';
+import XImg from '$lib/imgs/x.jpg';
 import WaterLooImg from '$lib/imgs/waterloo.png';
 
 import CovidSimImg from '$lib/imgs/covidsim.png';
@@ -100,6 +101,18 @@ export const DATA = {
 		}
 	},
 	work: [
+		{
+			company: 'X / Twitter',
+			href: 'https://x.com',
+			badges: [],
+			location: 'Palo Alto, California, USA',
+			title: 'Software Engineer Intern',
+			logoUrl: XImg,
+			start: 'January 2025',
+			end: 'April 2025',
+			description:
+				'Intern on the Core Infrastructure team, focusing on distributed systems, storage solutions, and data platforms. Utilizing technologies like Kafka, Spark, Hadoop, Parquet to build infrastructure for the X app.'
+		},
 		{
 			company: 'NetNow Financial',
 			href: 'https://netnow.io',
